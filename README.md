@@ -1,30 +1,108 @@
-# React + TypeScript + Vite
+# 💼 Personal Web Profile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React**, **TypeScript**, and **Vite**. It showcases my background, experience, and projects as a Full-Stack Web Developer.
 
-Currently, two official plugins are available:
+Live Preview 👉 [dariazzidane.vercel.app](https://dariazzidane.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Modern tech stack: React + TypeScript + Vite
+- Fully responsive design
+- Dynamic portfolio & experience sections
+- Clean and minimal UI
+- Easy to maintain & scale
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠 Tech Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS (optional)
+- **Build Tool**: Vite
+- **Deployment**: Netlify / Vercel / Static Hosting
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run this project locally:
+
+### 1. Clone the repository
+
+```bash
+https://github.com/muhammaddariazzidane/personal-webiste.git
+
+cd personal-website
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Setup environment variables
+
+Copy the example `.env` file and update the values if needed:
+
+```bash
+cp .env.example .env
+```
+
+> If no environment variables are needed, this step can be skipped.
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+This will generate a `dist/` folder with the production-ready files.
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🌐 Deployment
+
+You can deploy this app easily to platforms like:
+
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+
+Just connect your GitHub repo and configure the build command:
+
+```bash
+npm run build
+```
+
+and set the output directory to:
+
+```bash
+dist
+```
+
+---
+
+## 🙋‍♂️ Author
+
+**Muhammad Dariaz Zidane**
+Full-Stack Web Developer
+• [LinkedIn](https://www.linkedin.com/in/muhammad-dariaz-zidane) • [GitHub](https://github.com/muhammaddariazzidane)
+
+---

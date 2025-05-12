@@ -139,8 +139,17 @@
         "name": "Google Cloud Platform"
       }
     ],
-    "certificates": [
-      { "id": 1, "value": "/img/certifications/bangkit.png" }
-    ]
+    "certificates": [{ "id": 1, "value": "/img/certifications/bangkit.png" }]
+  },
+  {
+    "id": 4,
+    "title": "Full-Stack Web Developer",
+    "backgroundImage": "/img/doit-banner.png",
+    "image": "/img/doit.png",
+    "company": "PT. Digital Optima Integra",
+    "period": "Sep 2024 - Current",
+    "description": "As a Full-Stack Web Developer at PT. Digital Optima Integra, I focus on building and maintaining web applications using React.js for the frontend and Go (Golang) for the backend. I collaborate with cross-functional teams to develop scalable, high-performance systems and deliver clean, maintainable code. This role enables me to continuously sharpen my skills while contributing to impactful, real-world projects.",
+    "skills": [],
+    "certificates": []
   }
 ]

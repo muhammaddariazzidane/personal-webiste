@@ -1,12 +1,12 @@
-import { Stacks } from '@/components/common/constant/Stacks';
-import TimelineCard from '@/components/common/TimelineCard';
-import { ButtonIcon } from '@/components/common/ButtonIcon';
-import ProfileCard from '@/components/common/ProfileCard';
-import { FaCode, FaBriefcase } from 'react-icons/fa6';
-import { Separator } from '@/components/ui/separator';
-import experiences from '@/data/experience.json';
-import educations from '@/data/education.json';
-import RootLayout from '@/layouts/RootLayout';
+import { Stacks } from "@/components/common/constant/Stacks";
+import TimelineCard from "@/components/common/TimelineCard";
+import { ButtonIcon } from "@/components/common/ButtonIcon";
+import ProfileCard from "@/components/common/ProfileCard";
+import { FaCode, FaBriefcase } from "react-icons/fa6";
+import { Separator } from "@/components/ui/separator";
+import experiences from "@/data/experience.json";
+import educations from "@/data/education.json";
+import RootLayout from "@/layouts/RootLayout";
 
 export default function Home() {
   return (
@@ -14,18 +14,17 @@ export default function Home() {
       <div
         className="grid lg:grid-cols-4 grid-cols-1 max-w-7xl mx-auto"
         data-aos="fade-up"
-        >
+      >
         <ProfileCard />
-        <div className="w-full col-span-3 py-4 lg:px-10  sm:px-6"
-        >
+        <div className="w-full col-span-3 py-4 lg:px-10  sm:px-6">
           <div>
             <div className="my-4 flex flex-col space-y-3 lg:text-base md:text-base text-sm">
               <p className="leading-relaxed">
-                I am a student in the Diploma 3 (D3) program currently pursuing
-                my degree at Bina Sarana Informatika University in Karawang,
-                West Java. I have a strong background in web development, with
-                expertise in using platforms such as Laravel, CodeIgniter, and
-                ReactJS to create versatile and user-friendly web applications.
+                I am a Fullstack Web Developer with a diploma in Information
+                Technology from Bina Sarana Informatika University, Karawang. I
+                specialize in building dynamic, user-friendly web applications
+                using modern frameworks such as Laravel, CodeIgniter, and
+                ReactJS.
               </p>
             </div>
           </div>
@@ -34,15 +33,15 @@ export default function Home() {
           <TimelineCard
             datas={experiences}
             icon={<FaBriefcase size={18} />}
-            title={'Carrer'}
-            subtitle={'My professional career journey.'}
+            title={"Carrer"}
+            subtitle={"My professional career journey."}
           />
           <Separator />
           <TimelineCard
             datas={educations}
             icon={<FaBriefcase size={18} />}
-            title={'Education'}
-            subtitle={'My education journey.'}
+            title={"Education"}
+            subtitle={"My education journey."}
           />
           <Separator />
 
